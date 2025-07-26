@@ -112,3 +112,16 @@ node_modules/
 application-local.yml
 application-local.properties
 config/local/
+
+# Cucumber reports
+cucumber-reports/
+**/cucumber-reports/
+cucumber.json
+cucumber.xml
+
+# Allure reports (si usas Allure)
+allure-results/
+allure-report/
+
+# Maven Cucumber plugin outputs
+**/cucumber-parallel/
